@@ -1,0 +1,54 @@
+.feedback-form {
+  max-width: 360px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+label:last-of-type {
+  margin-bottom: 16px;
+}
+
+input,
+textarea {
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 4px;
+  padding: 0 10px;
+  font-size: 16px;
+  font-family: inherit;
+  transition: all 0.3s;
+  margin-top: 8px;
+}
+
+input {
+  height: 40px;
+}
+
+input:hover,
+textarea:hover {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+button {
+  height: 40px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 8px;
+  background: rgb(78, 117, 255);
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background: rgb(108, 140, 255);
+}
